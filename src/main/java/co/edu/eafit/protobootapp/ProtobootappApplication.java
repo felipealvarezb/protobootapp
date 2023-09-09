@@ -19,7 +19,7 @@ public class ProtobootappApplication {
     }
 
     //Se ejecuta con http://localhost:8080/
-    @GetMapping("/")
+    @GetMapping("/home")
     public String index() {
         return String.format("Bienvenido! Esta aplicación ayuda a elevar números a sus potencias y a entender AWS.");
     }    
